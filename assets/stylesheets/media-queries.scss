@@ -16,11 +16,20 @@
 
 	.col-sm-12 {
 	  width: 100%;
+	  clear: both;
+	  form {
+	  	margin-bottom: 100px;
+	  }
 	}
 
 	.col-sm-4 {
 	  @include column-setup();
 	  width: 33%;
+	}
+	.form-group.col-sm-4 {
+	  width: 33%;
+	  padding: 0px;
+	  float: left;
 	}
 
 	.col-sm-8 {
@@ -46,6 +55,12 @@
 	  width: 33%;
 	}
 
+	.form-group.col-md-4 {
+	  width: 33%;
+	  padding: 0px;
+	  float: left;
+	}
+
 	.col-md-8 {
 	  @include column-setup();
 	  width: 66%;
@@ -69,6 +84,11 @@
 	.col-lg-4 {
 	  @include column-setup();
 	  width: 33%;
+	}
+	.form-group.col-lg-4 {
+	  width: 33%;
+	  padding: 0px;
+	  float: left;
 	}
 
 	.col-lg-8 {

@@ -51,6 +51,8 @@ body {
     .row {
       padding: 0px;
     }
+    height: auto;
+    
   }
 
 }
@@ -127,11 +129,7 @@ a:visited {
   margin-bottom: 20px;
 }
 
-.form-group.col-lg-4 {
-  width: 33%;
-  padding: 0px;
-  float: left;
-}
+
 .form-group input{
   width: 90%;
   margin-right: 10%;
