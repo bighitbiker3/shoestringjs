@@ -51,6 +51,8 @@ body {
     .row {
       padding: 0px;
     }
+    height: auto;
+    
   }
 
 }
@@ -70,10 +72,7 @@ footer {
   }
 }
 
-.col-lg-6 {
-@include column-setup();
-  width: 49%;
-}
+
 
 ol {
   list-style-type: none;
@@ -123,25 +122,14 @@ a:visited {
 }
 
 
-.col-lg-12 {
-  width: 100%;
-}
 
-.col-lg-4 {
-  @include column-setup();
-  width: 33%;
-}
 
 .form-group{
   width: 100%;
   margin-bottom: 20px;
 }
 
-.form-group.col-lg-4 {
-  width: 33%;
-  padding: 0px;
-  float: left;
-}
+
 .form-group input{
   width: 90%;
   margin-right: 10%;
@@ -156,11 +144,7 @@ a:visited {
 }
 
 
-.col-lg-8 {
 
-  @include column-setup();
-  width: 66%;
-}
 
 .img-responsive{
   width: 100%;
@@ -189,3 +173,5 @@ a:visited {
   color: white;
   background-color: #22b7f2
 }
+
+@import 'media-queries'
