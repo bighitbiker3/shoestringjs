@@ -132,10 +132,27 @@ a:visited {
   width: 33%;
 }
 
+.form-group{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .form-group.col-lg-4 {
-  width: 32%;
+  width: 33%;
   padding: 0px;
-  margin: 0px;
+  float: left;
+}
+.form-group input{
+  width: 90%;
+  margin-right: 10%;
+}
+
+.form-group textarea{
+  width: 100%;
+}
+
+.form-group label{
+  float:left;
 }
 
 
@@ -156,4 +173,19 @@ a:visited {
   small {
     color: #a5abad;
   }
+}
+
+.form-group .btn{
+  float: left;
+}
+.btn{
+  border-radius: 10%;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  padding: 8px;
+}
+.btn.btn-primary{
+  color: white;
+  background-color: #22b7f2
 }
