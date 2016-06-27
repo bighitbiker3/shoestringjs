@@ -518,14 +518,6 @@ footer {
     padding-right: 10px;
     vertical-align: top; }
 
-.col-lg-6 {
-  text-align: left;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: top;
-  width: 49%; }
-
 ol {
   list-style-type: none;
   text-align: left;
@@ -566,17 +558,6 @@ a:visited {
   text-decoration: none;
   color: #3db7e0; }
 
-.col-lg-12 {
-  width: 100%; }
-
-.col-lg-4 {
-  text-align: left;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: top;
-  width: 33%; }
-
 .form-group {
   width: 100%;
   margin-bottom: 20px; }
@@ -595,14 +576,6 @@ a:visited {
 
 .form-group label {
   float: left; }
-
-.col-lg-8 {
-  text-align: left;
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px;
-  vertical-align: top;
-  width: 66%; }
 
 .img-responsive {
   width: 100%; }
@@ -626,3 +599,30 @@ a:visited {
 .btn.btn-primary {
   color: white;
   background-color: #22b7f2; }
+
+/* Extra small devices (phones, less than 768px) */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .col-lg-6 {
+    text-align: left;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 49%; }
+  .col-lg-12 {
+    width: 100%; }
+  .col-lg-4 {
+    text-align: left;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 33%; }
+  .col-lg-8 {
+    text-align: left;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    width: 66%; } }

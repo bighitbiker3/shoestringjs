@@ -70,10 +70,7 @@ footer {
   }
 }
 
-.col-lg-6 {
-@include column-setup();
-  width: 49%;
-}
+
 
 ol {
   list-style-type: none;
@@ -123,14 +120,7 @@ a:visited {
 }
 
 
-.col-lg-12 {
-  width: 100%;
-}
 
-.col-lg-4 {
-  @include column-setup();
-  width: 33%;
-}
 
 .form-group{
   width: 100%;
@@ -156,11 +146,7 @@ a:visited {
 }
 
 
-.col-lg-8 {
 
-  @include column-setup();
-  width: 66%;
-}
 
 .img-responsive{
   width: 100%;
@@ -189,3 +175,5 @@ a:visited {
   color: white;
   background-color: #22b7f2
 }
+
+@import 'media-queries'
